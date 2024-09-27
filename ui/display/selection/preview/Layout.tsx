@@ -55,7 +55,7 @@ export default function Layout({
   description,
 }: PreviewProps) {
   return (
-    <Link href={`/Support${path}`} passHref legacyBehavior>
+    <Link href={`/support${path}`} passHref legacyBehavior>
       <motion.div
         initial="initial"
         whileHover="hover"
